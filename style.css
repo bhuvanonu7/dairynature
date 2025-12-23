@@ -172,17 +172,21 @@
         }
 
         /* Hero Section */
-        .hero {
+         .hero {
             background: linear-gradient(rgba(255, 152, 0, 0.1), rgba(255, 87, 34, 0.1)), url('assets/Banner.png');
-            background-size: cover;
+            background-size: contain;
             background-position: center;
-            height: 90vh;
+            background-repeat: no-repeat;
+            min-height: 70vh;
             display: flex;
             align-items: center;
+            justify-content: center;
             margin-top: 90px;
             color: white;
             text-align: center;
+            padding: 40px 20px;
         }
+
 
         .hero-content {
             background: rgba(93, 64, 55, 0.85);
@@ -475,3 +479,4 @@
             }
         }
   
+
