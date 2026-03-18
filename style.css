@@ -220,25 +220,30 @@ nav ul li a:hover:after {
 }
 
 /* Hero Section */
+/* Hero Section */
 .hero {
-    background: linear-gradient(rgba(255, 152, 0, 0.15), rgba(255, 87, 34, 0.15)), url('assets/Banner.jpg');
-    
-     background-size: contain;
-     background-repeat: no-repeat;
+    background: url('assets/Banner.jpg');
+    background-size: contain;
     background-position: center;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+
     min-height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 0;
     color: white;
     text-align: center;
     padding: 40px 20px;
-    position: relative;
-    overflow: hidden;
-        
 }
+@media (max-width: 768px) {
+    .hero {
+        background: url('assets/Banner3.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
 .hero .btn {
     margin-top: 520px; /* adjust as needed */
 }
