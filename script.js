@@ -547,3 +547,8 @@ setTimeout(() => {
         heroContent.insertBefore(greetingElement, heroContent.firstChild);
     }
 }, 1000);
+
+
+if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
+    document.body.classList.add("mobile-device");
+}
