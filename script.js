@@ -552,3 +552,11 @@ setTimeout(() => {
 if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
     document.body.classList.add("mobile-device");
 }
+
+
+
+// Disable right click
+document.addEventListener("contextmenu", e => e.preventDefault());
+
+// Disable select
+document.addEventListener("selectstart", e => e.preventDefault());
