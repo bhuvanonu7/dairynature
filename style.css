@@ -220,7 +220,6 @@ nav ul li a:hover:after {
 }
 
 /* Hero Section */
-/* Hero Section */
 .hero {
     background: url('assets/Banner.jpg');
     background-size: contain;
@@ -235,14 +234,18 @@ nav ul li a:hover:after {
     text-align: center;
     padding: 40px 20px;
 }
+.mobile-device .hero {
+    background: url('assets/Banner3.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 @media (max-width: 768px) {
     .hero {
         background: url('assets/Banner3.png');
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
     }
 }
+
 
 .hero .btn {
     margin-top: 520px; /* adjust as needed */
