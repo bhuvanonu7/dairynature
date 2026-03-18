@@ -222,7 +222,9 @@ nav ul li a:hover:after {
 /* Hero Section */
 .hero {
     background: linear-gradient(rgba(255, 152, 0, 0.15), rgba(255, 87, 34, 0.15)), url('assets/Banner1.png');
-    background-size: cover;
+    
+     background-size: contain;
+     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     min-height: 95vh;
