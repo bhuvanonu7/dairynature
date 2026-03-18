@@ -221,7 +221,7 @@ nav ul li a:hover:after {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(255, 152, 0, 0.15), rgba(255, 87, 34, 0.15)), url('assets/Banner.png');
+    background: linear-gradient(rgba(255, 152, 0, 0.15), rgba(255, 87, 34, 0.15)), url('assets/Banner.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -235,6 +235,10 @@ nav ul li a:hover:after {
     padding: 40px 20px;
     position: relative;
     overflow: hidden;
+        
+}
+.hero .btn {
+    margin-top: 520px; /* adjust as needed */
 }
 
 .hero:before {
@@ -255,10 +259,10 @@ nav ul li a:hover:after {
     margin: 0 auto;
     position: relative;
     z-index: 1;
-    backdrop-filter: blur(20px);
     border: 2px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
     animation: float 6s ease-in-out infinite;
+     margin-top: 150px; /* adjust this value */
 }
 
 @keyframes float {
@@ -288,6 +292,7 @@ nav ul li a:hover:after {
     font-size: 1.4rem;
     margin-bottom: 40px;
     opacity: 0.95;
+    color: rgb(255, 187, 0);
     line-height: 1.8;
 }
 
